@@ -1,0 +1,26 @@
+{
+  "name": "retricon",
+  "version": "0.0.1",
+  "description": "create indenticon-like image hashes styled like Github and Gravatar (retro) avatars",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "https://github.com/sehrgut/node-retricon",
+  "keywords": [
+    "identicon",
+    "avatar",
+    "visualization",
+    "profile",
+    "fingerprint",
+    "image",
+    "hash",
+    "visual hash"
+  ],
+  "author": "Keith Beckman <kbeckman@becknet.com>",
+  "license": "BSD",
+  "dependencies": {
+    "canvas": "1.0.x",
+    "lodash": "1.3.x"
+  }
+}
