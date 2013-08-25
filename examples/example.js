@@ -28,6 +28,11 @@ for (var i=0; i<10; i++) {
 	console.log("<img src='" + retricon(i.toString(), retricon.style.mosaic).toDataURL() + "'>");
 }
 
+console.log('<h2>window</h2>');
+for (var i=0; i<10; i++) {
+	console.log("<img src='" + retricon(i.toString(), retricon.style.window).toDataURL() + "'>");
+}
+
 console.log('<h2>github-style</h2>');
 for (var i=0; i<10; i++) {
 	console.log("<img src='" + retricon(i.toString(), retricon.style.github).toDataURL() + "'>");
