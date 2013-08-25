@@ -1,10 +1,5 @@
 ## TODO
 
-* Larger Gravatar-style identicons (10x10)
-  http://www.codingthewheel.com/internet/of-gravatars-and-robohashes/
-* Arbitrary numbers of elements
-* Even and odd support. Probably should use a matrix lib for all of this, to
-  allow reflection about any axis.
 * Multiple axes of symmetry, to allow things like (x2, y4 reflections):
 
 		..X..
@@ -16,4 +11,7 @@
 		XX.XX
 
 * Generate SVG strings instead, and render them with an external library.
-* Background color (transparent isn't always ideal)
+* Color-transform callback, which is passed the "colors" array, and must
+  return a "colors" array. Useful for nudging colours away from low-contrast
+  pairs, maybe desaturating, etc., to provide a more uniform look.
+* Allow null for foreground colour, to delete background and allow transparent
