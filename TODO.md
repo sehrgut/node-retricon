@@ -16,3 +16,4 @@
 		XX.XX
 
 * Generate SVG strings instead, and render them with an external library.
+* Background color (transparent isn't always ideal)
