@@ -13,14 +13,6 @@ create indenticon-like image hashes styled like [Github][ghid] and
 ![skull](https://raw.github.com/sehrgut/node-retricon/master/examples/images/07.png)
 ![frog](https://raw.github.com/sehrgut/node-retricon/master/examples/images/08.png)
 
-![default](https://raw.github.com/sehrgut/node-retricon/master/examples/images/default.png)
-![mini](https://raw.github.com/sehrgut/node-retricon/master/examples/images/mini.png)
-![gravatar](https://raw.github.com/sehrgut/node-retricon/master/examples/images/gravatar.png)
-![mono](https://raw.github.com/sehrgut/node-retricon/master/examples/images/mono.png)
-![mosaic](https://raw.github.com/sehrgut/node-retricon/master/examples/images/mosaic.png)
-![github](https://raw.github.com/sehrgut/node-retricon/master/examples/images/github.png)
-
-
 ## Example
 
 	var retricon = require('retricon');
@@ -57,6 +49,30 @@ create indenticon-like image hashes styled like [Github][ghid] and
 	  `bgColor`, but cannot be null.
 
 Returns a `Canvas` object containing the rendered image.
+
+## Styles
+
+All style options can be changed, but _retricon_ comes with several prerolled
+styles:
+
+### default
+![default](https://raw.github.com/sehrgut/node-retricon/master/examples/images/default.png)
+
+### mini
+![mini](https://raw.github.com/sehrgut/node-retricon/master/examples/images/mini.png)
+
+### gravatar
+![gravatar](https://raw.github.com/sehrgut/node-retricon/master/examples/images/gravatar.png)
+
+### mono
+![mono](https://raw.github.com/sehrgut/node-retricon/master/examples/images/mono.png)
+
+### mosaic
+![mosaic](https://raw.github.com/sehrgut/node-retricon/master/examples/images/mosaic.png)
+
+### github
+![github](https://raw.github.com/sehrgut/node-retricon/master/examples/images/github.png)
+
 
 ## Algorithm
 
