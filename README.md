@@ -57,10 +57,12 @@ styles:
 
 ### default
 Coloured tiles against a transparent background.
+
 ![default](https://raw.github.com/sehrgut/node-retricon/master/examples/images/default.png)
 
 ### mini
 Tiny 3x3 identicons with padded tiles.
+
 ![mini](https://raw.github.com/sehrgut/node-retricon/master/examples/images/mini.png)
 
 ### gravatar
@@ -70,18 +72,22 @@ Not a perfect replica of Gravatar's "retro" style, but close.
 
 ### mono
 Black tiles on a grey background.
+
 ![mono](https://raw.github.com/sehrgut/node-retricon/master/examples/images/mono.png)
 
 ### mosaic
 Padded tiles, for a mosaic effect.
+
 ![mosaic](https://raw.github.com/sehrgut/node-retricon/master/examples/images/mosaic.png)
 
 ### window
 Transparent, padded tiles against coloured background.
+
 ![window](https://raw.github.com/sehrgut/node-retricon/master/examples/images/window.png)
 
 ### github
 Faithful replica of Github's identicon style.
+
 ![github](https://raw.github.com/sehrgut/node-retricon/master/examples/images/github.png)
 
 
