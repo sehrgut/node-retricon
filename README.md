@@ -45,8 +45,8 @@ create indenticon-like image hashes styled like [Github][ghid] and
 	  filled. Hash chaining is used to satisfy fill criteria.
 	* `maxFill`: float (default: 0.9) - maximum proportion of tiles which may
 	  be filled.
-	* `pixelColor`: mixed (default: 0) - color to fill foreground tiles. As
-	  `bgColor`, but cannot be null.
+	* `pixelColor`: mixed (default: 0) - color to fill foreground tiles. All
+	  `bgColor` values are valid for `pixelColor`.
 
 Returns a `Canvas` object containing the rendered image.
 
