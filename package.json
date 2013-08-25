@@ -3,10 +3,14 @@
   "version": "0.0.1",
   "description": "create indenticon-like image hashes styled like Github and Gravatar (retro) avatars",
   "main": "index.js",
+  "homepage": "https://github.com/sehrgut/node-retricon",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "https://github.com/sehrgut/node-retricon",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sehrgut/node-retricon.git"
+  },
   "keywords": [
     "identicon",
     "avatar",
@@ -22,5 +26,11 @@
   "dependencies": {
     "canvas": "1.0.x",
     "lodash": "1.3.x"
-  }
+  },
+  "readmeFilename": "README.md",
+  "gitHead": "73c998a681b831486c01eea234363798d728ecf2",
+  "directories": {
+    "example": "examples"
+  },
+  "devDependencies": {}
 }
