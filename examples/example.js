@@ -1,6 +1,7 @@
 var retricon = require('../');
 var fmt = require('util').format;
 
+
 console.log('<html><head><title>retricons</title></head><body>');
 
 console.log('<div><h2>default</h2>');

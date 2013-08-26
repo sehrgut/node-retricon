@@ -16,3 +16,4 @@
   pairs, maybe desaturating, etc., to provide a more uniform look.
 * Allow null for foreground colour, to delete background and allow transparent
 * Allow pluggable hash functions
+* Change "pixel" references throughout source to "tile"

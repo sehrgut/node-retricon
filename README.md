@@ -90,6 +90,13 @@ Faithful replica of Github's identicon style.
 
 ![github](https://raw.github.com/sehrgut/node-retricon/master/examples/images/github.png)
 
+### custom example
+Absurd settings, such as:
+`{ pixelSize: 8, pixelPadding: -2, tiles: 30, pixelColor: 0, bgColor: 1 }`
+can still yield quite serviceable results.
+
+![bat](https://raw.github.com/sehrgut/node-retricon/master/examples/images/bat.png)
+
 
 ## Algorithm
 
@@ -105,6 +112,9 @@ accepted. Otherwise, the iterator is incremented, and the process repeated.
 The array of booleans is taken to be a row-major array covering the left half
 of the final image. It is reflected about the central vertical axis (or column,
 for odd-order arrays) which is then rendered as the final visual hash.
+
+## Known Limitations
+* 30x30 tile images are the maximum which can be generated from SHA-512.
 
 [ghid]: https://github.com/blog/1586-identicons
 [gravatar]: https://en.gravatar.com/site/implement/images/
