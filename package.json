@@ -22,10 +22,10 @@
     "visual hash"
   ],
   "author": "Keith Beckman <kbeckman@becknet.com>",
-  "license": "BSD",
+  "license": "BSD-2-Clause",
   "dependencies": {
     "canvas": "^1.0",
-    "lodash": "1.3.x"
+    "lodash": "3.x"
   },
   "readmeFilename": "README.md",
   "gitHead": "73c998a681b831486c01eea234363798d728ecf2",
