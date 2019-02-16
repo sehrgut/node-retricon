@@ -24,7 +24,7 @@
   "author": "Keith Beckman <kbeckman@becknet.com>",
   "license": "BSD-2-Clause",
   "dependencies": {
-    "canvas": "^1.6.7",
+    "canvas": "^2.3.1",
     "lodash": "3.x"
   },
   "readmeFilename": "README.md",
