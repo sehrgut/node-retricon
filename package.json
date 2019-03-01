@@ -1,6 +1,6 @@
 {
   "name": "retricon",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "create indenticon-like visual hashes styled like Github and Gravatar (retro) avatars",
   "main": "index.js",
   "homepage": "https://github.com/sehrgut/node-retricon",
@@ -24,7 +24,7 @@
   "author": "Keith Beckman <kbeckman@becknet.com>",
   "license": "BSD-2-Clause",
   "dependencies": {
-    "canvas": "^1.0",
+    "canvas": "^2.3.1",
     "lodash": "3.x"
   },
   "readmeFilename": "README.md",
